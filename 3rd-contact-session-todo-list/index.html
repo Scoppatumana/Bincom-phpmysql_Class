@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="awesome-font/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+</head>
+<body>
+    <div class="body-overall">
+        <section class="menu-section">
+            <div class="menu-container">
+                <h3>Menu</h3>
+                <span>
+                    <i class="fa fa-bars"></i>
+                </span>
+            </div>
+            <div class="input-container">
+                <input type="text" placeholder="Search">
+            </div>
+            <div class="task-list">
+                <h5>TASK <span> 6</span></h5>
+                <ul>
+                    <li>
+                        <a href="upcoming.html">
+                            <span><i class="fa fa-chevron-right"></i> Upcoming</span> 
+                            <span class="no-of-items">12</span> 
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span><i class="fa fa-list"></i> Today</span> 
+                            <span class="no-of-items">12</span> 
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span><i class="fa fa-calendar-check-o"></i> Calendar</span> 
+                            <span class="no-of-items">12</span> 
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span><i class="fa fa-sticky-note-o"></i> Sticky Wall</span> 
+                            <span class="no-of-items">12</span> 
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="task-list list-of-items">
+                <h5>LIST</h5>
+                <ul>
+                    <li>
+                        <a href="">
+                            <span><i class="fa fa-folder"></i> Personal</span> 
+                            <span class="no-of-items">12</span> 
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span><i class="fa fa-folder"></i> Work</span> 
+                            <span class="no-of-items">12</span> 
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span><i class="fa fa-folder"></i> List-1</span> 
+                            <span class="no-of-items">12</span> 
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span><i class="fa fa-plus"></i> Add New List</span>   
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="task-list tags-wrapper">
+                <h5>TAGS</h5>
+                <div class="tags-content">
+                    <div class="tags-container light-green">
+                        Tag 1
+                    </div>
+                    <div class="tags-container light-red">
+                        Tag 2
+                    </div>
+                    <div class="tags-container grey">
+                        <i class="fa fa-plus"></i> Add Tag
+                    </div>
+                </div>
+            </div>
+
+            <div class="task-list bottom">
+                <ul>
+                    <li><a href=""><span><i class="fa fa-bars"></i> Settings</span></a></li>
+                    <li><a href=""><span><i class="fa fa-sign-out"></i> Sign Out</a></span></li>
+                </ul>
+            </div>
+        </section>
+        <section class="action-section">
+            <div class="action-wrapper">
+                <h1>Upcoming <span> -9</span></h1> <br>
+                <h2>Today</h2>
+                <ul>
+                    <li>
+                        <a href="">
+                            <span><i class="fa fa-plus"></i> Add New Task</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span>
+                                <label for="checker1">
+                                    <input type="checkbox" name="checker1" id="checker1">
+                                    Research Content Ideas
+                                </label>
+                            </span> 
+                            <span class="no-of-items"><i class="fa fa-chevron-right"></i></span> 
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span>
+                                <label for="checker2">
+                                    <input type="checkbox" name="checker2" id="checker2">
+                                    Create a Database of Guest Authors
+                                </label>
+                            </span> 
+                            <span class="no-of-items"><i class="fa fa-chevron-right"></i></span> 
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span>
+                                <label for="checker3">
+                                    <input type="checkbox" name="checker3" id="checker3">
+                                    Renew Driver's License
+                                </label>
+                            </span> 
+                            <span class="no-of-items"><i class="fa fa-chevron-right"></i></span> 
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span>
+                                <label for="checker4">
+                                    <input type="checkbox" name="checker4" id="checker4">
+                                    Consult Accountant
+                                </label>
+                            </span> 
+                            <span class="no-of-items"><i class="fa fa-chevron-right"></i></span> 
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span>
+                                <label for="checker5">
+                                    <input type="checkbox" name="checker5" id="checker5">
+                                    Print Business Card
+                                </label>
+                            </span> 
+                            <span class="no-of-items"><i class="fa fa-chevron-right"></i></span> 
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+        </section>
+        <section class="tasks-section">
+            <h1>Task:</h1>
+            <input type="text" value="Renew Driver's License" class="input-group">
+            Description:
+            
+            <div class="overall-task">
+                <div class="flex-description">
+                    <label for="">List</label>
+                    <select name="list" id="">
+                        <option value="">Personal</option>
+                        <option value="">Work</option>
+                        <option value="">List 1</option>
+                    </select>
+                </div>
+    
+                <div class="flex-description">
+                    <label for="">Due date</label>
+                    <select name="list" id="">
+                        <option value="">11-03-22</option>
+                    </select>
+                </div>
+    
+                <div class="flex-description">
+                    <label for="">Tags</label>
+                    <section class="tag-section">
+                        <div class="tags-container light-green">
+                            Tag 1
+                        </div>
+                        <div class="tags-container light-red">
+                            Tag 2
+                        </div>
+                        <div class="tags-container grey">
+                            <i class="fa fa-plus"></i> Add Tag
+                        </div>
+                    </section>
+                </div>
+            </div>
+
+            <div class="button-container">
+                <button class="delete-task bg-red">
+                <i class="fa fa-remove"></i>   Delete Task 
+                </button>
+
+                <button class="save-task bg-green">
+                    <i class="fa fa-upload"></i>   Save Changes
+                 </button>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
