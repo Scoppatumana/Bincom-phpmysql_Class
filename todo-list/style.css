@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 500;
+    font-size: 1.1rem;
+    margin: 0;
+}
+
+
+
+.todo-wrapper{
+    width: 50%;
+    margin: 120px auto;
+    padding: 20px 0;
+}
+
+.title{
+    width: 100%;
+    text-align: center;
+    background: rgb(163, 190, 201);
+    border: 1px solid rgb(2, 43, 59);
+    color: rgb(2, 43, 59);
+    font-size: 2rem;
+    padding: 15px 10px;
+    border-radius: 10px;
+}
+
+.forms{
+    margin-top: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    background: purple;
+}
+
+.forms input.task{
+    width: 70%;
+    height: 45px;
+}
+
+.forms input.task:focus{
+    outline: 1px solid #3598b6;
+}
+
+
+.forms input.submit-btn{
+    width: 29%;
+    height: 45px;
+    cursor: pointer;
+}
+
+.forms input.submit-btn:hover{
+    background: rgb(163, 190, 201);
+    border: 1px solid rgb(2, 43, 59);
+    transition: .4s ease-in;
+}
+
+
+table {
+    width: 100%;
+    margin-top: 16px;
+    background: #494747;
+    color: #fff;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 1px solid #e2e9f3;
+  }
+  
+table tr {
+    border-top: 1px solid #e2e9f3;
+}
+  
+table th,
+table td {
+    padding: 12px;
+    text-align: left;
+  }
+
+button{
+    padding: 3px 6px;
+    cursor: pointer;
+    font-weight: bold;
+    color: red;
+    border: none;
+}
+
+button:hover{
+    color: #fff; 
+    background: red;
+    transition: .4s ease-in;
+}
